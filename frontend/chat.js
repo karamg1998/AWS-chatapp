@@ -101,7 +101,7 @@ function gNext(data)
             let gName=document.querySelector('.g-name');
             let gro=e.target.innerText;
             gName.innerText=gro;
-            if(e.target.id==='true'||'true(su)')
+            if(e.target.id=='true'|| e.target.id=='true(su)')
             {
                  delGroup.classList.toggle('active');
                  f.classList.toggle('active');
